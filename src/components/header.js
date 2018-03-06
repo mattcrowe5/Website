@@ -5,11 +5,11 @@ class Head extends React.Component {
   render() {
     return (
       <div>
-        <Header as="h2" icon textAlign="center">
-          <Icon name="code" circular />
+        <Header as="h2" textAlign="center">
           <Header.Content>Matt Crowe</Header.Content>
+          <Header.Subheader>Full Stack Web Developer </Header.Subheader>
         </Header>
-        <Image centered size="large" src="" />
+        <Image centered size="medium" src="" circular />
       </div>
     );
   }
