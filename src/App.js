@@ -5,6 +5,7 @@ import "semantic-ui-react";
 import Head from "./components/header.js";
 import ContentTabs from "./components/contentTabs.js";
 import { Header, Grid } from "semantic-ui-react";
+import { Route, Switch } from "react-router-dom";
 
 class App extends Component {
   render() {

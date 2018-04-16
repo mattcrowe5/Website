@@ -8,7 +8,7 @@ const Head = () => {
         <Image
           centered
           size="massive"
-          src="https://media.licdn.com/dms/image/C4E00AQH9thueCLHc0Q/profile-displayphoto-shrink_200_200/0?e=1521669600&v=alpha&t=1fcJhXa3zZ8gRTX18JNzHLrPjjafW7uHLh9iv3SmU6o"
+          src="https://media.licdn.com/dms/image/C4E03AQH9thueCLHc0Q/profile-displayphoto-shrink_200_200/0?e=1529092800&v=beta&t=AvtTKq_W8Lp14DnB9aUE1FmQ40TIAOeWahJbJ9EhYQU"
           circular
         />
         <Header.Content>Matt Crowe</Header.Content>

@@ -4,6 +4,15 @@ import "./index.css";
 import App from "./App";
 import registerServiceWorker from "./registerServiceWorker";
 import "semantic-ui-css/semantic.min.css";
+import { BrowserRouter as Router, withRouter } from "react-router-dom";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+const TheApp = withRouter(App);
+
+const MyApp = () => (
+  <Router>
+    <TheApp />
+  </Router>
+);
+
+ReactDOM.render(<MyApp />, document.getElementById("root"));
 registerServiceWorker();
