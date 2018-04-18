@@ -5,7 +5,12 @@ const ProjectCards = () => {
   return (
     <Card.Group itemsPerRow={2}>
       <Card>
-        <Image src="https://www.flickr.com/photos/157610381@N07/40791453164/in/dateposted-public/" />
+        <img
+          src="https://farm1.staticflickr.com/927/40791453164_0bb16074fb_n.jpg"
+          width="340"
+          height="162"
+          alt="Showspotter"
+        />
         <Card.Content>
           <Card.Header>ShowSpotter</Card.Header>
           <Card.Meta>React, Redux, Ruby on Rails</Card.Meta>
@@ -23,7 +28,12 @@ const ProjectCards = () => {
         </Card.Content>
       </Card>
       <Card>
-        <Image src="../images/DuelingDemons.png" />
+        <img
+          src="https://farm1.staticflickr.com/799/26634649417_1f57819f52_n.jpg"
+          width="340"
+          height="159"
+          alt="DuelingDemons"
+        />
         <Card.Content>
           <Card.Header>Dueling Demons</Card.Header>
           <Card.Meta>Javascript, Ruby on Rails</Card.Meta>
@@ -44,7 +54,12 @@ const ProjectCards = () => {
         </Card.Content>
       </Card>
       <Card>
-        <Image src="../images/DuelingDemons.png" />
+        <img
+          src="https://farm1.staticflickr.com/863/41463398042_aea46e914b_n.jpg"
+          width="340"
+          height="161"
+          alt="LinkUp"
+        />
         <Card.Content>
           <Card.Header>LinkUp</Card.Header>
           <Card.Meta>Ruby on Rails</Card.Meta>
@@ -59,6 +74,11 @@ const ProjectCards = () => {
             <Icon name="beer" />
             Link to Site
           </a>
+        </Card.Content>
+      </Card>
+      <Card>
+        <Card.Content>
+          <Card.Description>More coming soon...</Card.Description>
         </Card.Content>
       </Card>
     </Card.Group>

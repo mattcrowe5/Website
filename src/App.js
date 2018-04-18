@@ -4,8 +4,8 @@ import "./App.css";
 import "semantic-ui-react";
 import Head from "./components/header.js";
 import ContentTabs from "./components/contentTabs.js";
+import Footer from "./components/footer.js";
 import { Header, Grid } from "semantic-ui-react";
-import { Route, Switch } from "react-router-dom";
 
 class App extends Component {
   render() {
@@ -19,6 +19,7 @@ class App extends Component {
           </Grid.Column>
           <Grid.Column width={4} />
         </Grid>
+        <Footer />
       </div>
     );
   }
