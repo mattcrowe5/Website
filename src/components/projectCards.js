@@ -11,19 +11,19 @@ const ProjectCards = () => {
           height="162"
           alt="Showspotter"
         />
-        <Card.Content>
-          <Card.Header>ShowSpotter</Card.Header>
-          <Card.Meta>React, Redux, Ruby on Rails</Card.Meta>
-          <Card.Description>
+        <Card.Content id="color">
+          <Card.Header className="color">ShowSpotter</Card.Header>
+          <Card.Meta className="color">React, Redux, Ruby on Rails</Card.Meta>
+          <Card.Description className="color">
             Final Project at Flatiron School made using the Spotify and Songkick
             API's to recommend concerts you might want to see based on your top
             streamed Spotify artists.
           </Card.Description>
         </Card.Content>
-        <Card.Content extra>
-          <a>
+        <Card.Content extra id="color">
+          <a href="https://youtu.be/FaUEu8n9yc4" target="_blank">
             <Icon name="video play" />
-            Link to YouTube Tutorial
+            Link to YouTube Demo
           </a>
         </Card.Content>
       </Card>
@@ -34,16 +34,16 @@ const ProjectCards = () => {
           height="159"
           alt="DuelingDemons"
         />
-        <Card.Content>
-          <Card.Header>Dueling Demons</Card.Header>
-          <Card.Meta>Javascript, Ruby on Rails</Card.Meta>
-          <Card.Description>
+        <Card.Content id="color">
+          <Card.Header className="color">Dueling Demons</Card.Header>
+          <Card.Meta className="color">Javascript, Ruby on Rails</Card.Meta>
+          <Card.Description className="color">
             Game style project from Flatiron School made using vanilla
             Javascript with a Ruby on Rails server. Players choose a character
             and try to beat as many monsters as possible.
           </Card.Description>
         </Card.Content>
-        <Card.Content extra>
+        <Card.Content extra id="color">
           <a
             href="https://jisho23.github.io/mod_3_final_project_js/"
             target="_blank"
@@ -60,16 +60,16 @@ const ProjectCards = () => {
           height="161"
           alt="LinkUp"
         />
-        <Card.Content>
-          <Card.Header>LinkUp</Card.Header>
-          <Card.Meta>Ruby on Rails</Card.Meta>
-          <Card.Description>
+        <Card.Content id="color">
+          <Card.Header className="color">LinkUp</Card.Header>
+          <Card.Meta className="color">Ruby on Rails</Card.Meta>
+          <Card.Description className="color">
             Project from Flatiron School made using Ruby on Rails to give users
             an opportunity to find events going on in their city and connect
             with others going to the event beforehand.
           </Card.Description>
         </Card.Content>
-        <Card.Content extra>
+        <Card.Content extra id="color">
           <a href="https://groupies-assemble.herokuapp.com/" target="_blank">
             <Icon name="beer" />
             Link to Site
@@ -77,7 +77,7 @@ const ProjectCards = () => {
         </Card.Content>
       </Card>
       <Card>
-        <Card.Content>
+        <Card.Content id="color">
           <Card.Description>More coming soon...</Card.Description>
         </Card.Content>
       </Card>

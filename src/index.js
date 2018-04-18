@@ -4,15 +4,11 @@ import "./index.css";
 import App from "./App";
 import registerServiceWorker from "./registerServiceWorker";
 import "semantic-ui-css/semantic.min.css";
-import { BrowserRouter as Router, withRouter } from "react-router-dom";
+import Footer from "./components/footer.js";
 
-const TheApp = withRouter(App);
-
-const MyApp = () => (
-  <Router>
-    <TheApp />
-  </Router>
-);
+const MyApp = () => <App />;
 
 ReactDOM.render(<MyApp />, document.getElementById("root"));
 registerServiceWorker();
+
+ReactDOM.render(<Footer />, document.getElementById("foot"));

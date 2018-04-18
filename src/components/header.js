@@ -4,7 +4,7 @@ import { Header, Icon, Image } from "semantic-ui-react";
 const Head = () => {
   return (
     <div>
-      <Header as="h2" icon textAlign="center">
+      <Header as="h2" icon textAlign="center" id="head">
         <Image
           centered
           size="massive"
@@ -12,7 +12,7 @@ const Head = () => {
           circular
         />
         <Header.Content>Matt Crowe</Header.Content>
-        <Header.Subheader>Full Stack Web Developer </Header.Subheader>
+        <Header.Subheader id="head">Full Stack Web Developer </Header.Subheader>
       </Header>
     </div>
   );

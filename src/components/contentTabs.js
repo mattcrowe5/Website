@@ -13,6 +13,7 @@ const panes = [
       <div>
         <br />
         {bio}
+        <br />
       </div>
     )
   },
@@ -41,6 +42,6 @@ const panes = [
 //   { menuItem: "Projects", icon: "code", pane: "Tab 3 Content" }
 // ];
 
-const ContentTabs = () => <Tab panes={panes} />;
+const ContentTabs = () => <Tab panes={panes} className="panes" />;
 
 export default ContentTabs;
