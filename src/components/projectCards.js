@@ -10,6 +10,7 @@ const ProjectCards = () => {
           width="340"
           height="162"
           alt="Showspotter"
+          className="img"
         />
         <Card.Content id="color">
           <Card.Header className="color">ShowSpotter</Card.Header>
@@ -33,6 +34,7 @@ const ProjectCards = () => {
           width="340"
           height="159"
           alt="DuelingDemons"
+          className="img"
         />
         <Card.Content id="color">
           <Card.Header className="color">Dueling Demons</Card.Header>
@@ -59,6 +61,7 @@ const ProjectCards = () => {
           width="340"
           height="161"
           alt="LinkUp"
+          className="img"
         />
         <Card.Content id="color">
           <Card.Header className="color">LinkUp</Card.Header>

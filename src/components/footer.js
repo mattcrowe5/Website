@@ -17,7 +17,7 @@ const Footer = () => {
               href="https://www.linkedin.com/in/matthew-crowe-b27a0197/"
               target="_blank"
             >
-              <Icon name="github" /> LinkedIn
+              <Icon name="linkedin square" /> LinkedIn
             </a>
           </Segment>
           <Segment id="link" textAlign="center">

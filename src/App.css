@@ -55,6 +55,7 @@
 .panes {
   background: url("http://www.brokenboxstock.com/item_images/bkgnd_subtlecircs_blue_demo.jpg");
   border-radius: 25px;
+  color: black;
 }
 #link {
 }
@@ -65,4 +66,9 @@
 
 #color {
   background: url("https://thumbs.dreamstime.com/t/vector-light-yellow-abstract-creative-background-29480320.jpg");
+}
+
+.img {
+  width: 100%;
+  height: 100%;
 }
